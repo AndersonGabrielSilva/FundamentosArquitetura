@@ -1,5 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
+//Extende a visibilidade para outros assembly ou seja os modificadores internal serão visisveis
 //[assembly: InternalsVisibleTo("ProjetoB")]
 namespace ProjetoA
 {
