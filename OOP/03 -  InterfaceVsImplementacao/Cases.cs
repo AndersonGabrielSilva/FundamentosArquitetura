@@ -9,7 +9,7 @@
     {
         //public Repositorio(int a)
         //{
-            
+
         //}
 
         public void Adicionar()
@@ -30,6 +30,7 @@
     {
         public void Processo()
         {
+            //Neste exemplo podemos notar o inicio de um aclopamento, pois dentro do metodo há de fato uma implementação
             var repositorio = new Repositorio();
             repositorio.Adicionar();
         }
@@ -46,6 +47,7 @@
 
         public void Processo()
         {
+            // Neste exemplo podemos notar que há um baixo acoplamento, pois para o UsoAbstracao conhece apenas a interface
             _repositorio.Adicionar();
         }
     }
