@@ -38,6 +38,7 @@ namespace DemoDI
 
             #region Generics
 
+            //Exemplo de como adicionar ao container uma dependencia de um tipo generico
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
             #endregion
