@@ -44,7 +44,6 @@ namespace DemoDI
             #endregion
 
             #region MultiplasClasses
-
             services.AddTransient<ServiceA>();
             services.AddTransient<ServiceB>();
             services.AddTransient<ServiceC>();
@@ -65,7 +64,7 @@ namespace DemoDI
 
             #endregion
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2); 
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

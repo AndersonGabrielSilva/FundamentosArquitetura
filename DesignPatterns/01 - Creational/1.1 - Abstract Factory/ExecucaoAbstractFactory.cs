@@ -13,7 +13,7 @@ namespace DesignPatterns.AbstractFactory
                 VeiculoCreator.Criar("BMW X6", Porte.Grande)
             };
 
-            veiculosSocorro.ForEach(v => AutoSocorro.CriarAutoSocorro(v).RealizarAtendimento());
+            veiculosSocorro.ForEach(veiculo => AutoSocorro.CriarAutoSocorro(veiculo).RealizarAtendimento());
         }
     }
 }   
